@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    background-color: #5B5B5B;
+}
+
+
+h1{
+    position: relative;
+    color: lightgreen;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    left: 30%;
+    width: 50%;
+}
+
+h3{
+    color:#C9C19F;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 5px;
+}
+p{
+    color: #EDF7F6;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+.nav{
+overflow: hidden;
+  background-color: #343633;
+  position: sticky;
+  z-index: 1;
+  top: 0; 
+  opacity: .8;
+  width: 100%;
+}
+.nav img{
+    margin: 5px auto;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #343633;
+  }
+  
+  li {
+    position: relative;
+    float: left;
+  }
+  
+  li a {
+    position: relative;
+    top: 6px;
+    display: block;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+.WWW{
+   position: relative; 
+   top: 100px;
+   max-width: 96%;
+   margin-left: 15px;
+   border: 1px solid gray;
+   padding: 10px;
+   border-top-right-radius: 20px;
+   transition: all .3s;
+}
+
+.WWW:hover{
+    box-shadow: black 1px 1px 8px;
+    cursor: pointer;
+}
+
+.Skillnad{
+    position: relative; 
+    top: 100px;
+    max-width: 96%;
+    margin-left: 15px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-top-right-radius: 20px;
+    transition: all .3s;
+ }
+ 
+ .Skillnad:hover{
+     box-shadow: black 1px 1px 8px;
+     cursor: pointer;
+ }
+ 
+ .mellan{
+    position: relative; 
+    top: 100px;
+    max-width: 96%;
+    height: 300px;
+    margin-left: 15px;
+    border: 1px solid gray;
+    background-color: black;
+    opacity: 70%;
+    padding: 10px;
+    border-top-right-radius: 20px;
+    transition: all .3s;
+ }
+ 
+ .mellan:hover{
+     box-shadow: black 2px 3px 10px;
+     cursor: pointer;
+ }
+
+ .mellan p{
+     position: relative;
+     top: 50px;
+     color: white;
+     text-align: center;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     font-size: 30px;
+ }
+
+
+ .collapsible {
+position: relative;
+top: 100px;
+  background-color: #7D7C7A;
+  cursor: pointer;
+  width: 40%;
+  margin-left: 15px;
+  text-align: left;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.collapsible p{
+    color: white;
+    padding: 18px;
+    text-align: left;
+    font-size: 15px;
+}
+.active, .collapsible:hover {
+  background-color: #474747;
+}
+
+#mer{
+    background-color: black;
+    width: 12%;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+#mer:hover{
+    text-decoration: underline;
+}
+
+.active{
+    width: 70%;
+}
+
+.content {
+position: relative;
+top: 100px;
+  padding: 15px;
+  max-width: 68%;
+  margin-left: 15px;
+  border-radius: 10px;
+  display: none;
+  overflow: hidden;
+  background-color: #B4ABA7;
+}
+
+.content h3{
+    color: #EDF7F6;
+    font-family: 'Courier New', Courier, monospace;
+}
+.content p{
+    margin: 8px;
+    padding: 12px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+#arpanet2{
+    width:560px;
+    height:315;
+    margin-left: 30px;
+}
+
+
+
+.Viktiga_hndelser{
+    position: relative; 
+    top: 100px;
+    max-width: 96%;
+    margin-left: 15px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-top-right-radius: 20px;
+    transition: all .3s;
+ }
+ 
+ .Viktiga_hndelser:hover{
+     box-shadow: black 1px 1px 8px;
+     cursor: pointer;
+ }
+ 
+
+
+ 
+#mer2{
+    background-color: black;
+    width: 30%;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+#mer2:hover{
+    text-decoration: underline;
+}
+
+ .collapsible2 {
+    position: relative;
+    top: 100px;
+      background-color: #7D7C7A;
+      cursor: pointer;
+      width: 20%;
+      margin-left: 15px;
+      text-align: left;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+    }
+    
+    .collapsible2 p{
+        color: white;
+        padding: 18px;
+        text-align: left;
+        font-size: 15px;
+    }
+    .active3, .collapsible2:hover {
+      background-color: #474747;
+    }
+    .active3{
+        width: 30% ;
+    }
+    
+    .content2 {
+    position: relative;
+    top: 100px;
+      padding: 15px;
+      max-width: 28%;
+      height: 300px;
+      margin-left: 15px;
+      border-radius: 10px;
+      display: none;
+      overflow: hidden;
+      background-color: gray;
+    }
+
+.content2 p{
+    color: black;
+}
+.content2 h3{
+    color: white;
+}
+
+
+#Top{
+    
+    margin: 5px;
+    padding: 15px;
+    color: red;
+    border: 1px solid gray;
+    background-color: lightgray;
+    text-decoration: none;
+
+}
+
+#Top:hover{
+    box-shadow: black 1px 2px 8px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: black;
+    text-decoration: underline;
+}
